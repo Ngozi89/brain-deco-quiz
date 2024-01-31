@@ -1,3 +1,10 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+print("Welcome to Brain Deco Quiz App")
+# Let player choose if they want to play or quit
+player = input("Do you want to play Brain Deco Quiz? ")
+
+# Check If user condition is true. If yes then play else quit
+if player != "yes":
+    quit()
+else:
+    print("Okay, lets' go :)")    
+
