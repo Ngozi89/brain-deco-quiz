@@ -1,27 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Deco</title>
+    <link rel="icon" type="image/png" href="https://imgur.com/a/8TZlvQp.png">
+</head>
 <body>
-    <button onclick="window.location.reload()">Run Program</button>
-    <div id="terminal"></div>
+    <header>
+        <h1>Brain Deco Quiz Game</h1>
+    </header>
+    <main>
+        <!-- button -->
+        <button onclick="window.location.reload()">Start Game</button>
+        <!-- terminal window -->
+        <div id="terminal"></div>
 
-    <script>
-        var term = new Terminal({
-            cols: 80,
-            rows: 24
-        });
-        term.open(document.getElementById('terminal'));
-        term.writeln('Running startup command: python3 run.py');
-        term.writeln('');
-
-        var ws = new WebSocket(location.protocol.replace('http', 'ws') + '//' + location.hostname + (location.port ? (
-            ':' + location.port) : '') + '/');
-
-        ws.onopen = function () {
-            new attach.attach(term, ws);
-        };
-
-        ws.onerror = function (e) {
-            console.log(e);
-        };
-        // Set focus in the terminal
-        document.getElementsByClassName("xterm-helper-textarea")[0].focus();
-    </script>
+        <script>
+            var term = new Terminal({
+                cols: 80,
+                rows: 24
+            });
+            term.open(document.getElementById('terminal'));
+            term.writeln('Running startup command: python3 run.py');
+            term.writeln('');
+    
+            var ws = new WebSocket(location.protocol.replace('http', 'ws') + '//' + location.hostname + (location.port ? (
+                ':' + location.port) : '') + '/');
+    
+            ws.onopen = function () {
+                new attach.attach(term, ws);
+            };
+    
+            ws.onerror = function (e) {
+                console.log(e);
+            };
+            // Set focus in the terminal
+            document.getElementsByClassName("xterm-helper-textarea")[0].focus();
+        </script>
+    </main>
+    <footer>
+        <div>
+            <a href="https://github.com/ngozi89" target="_blank" aria-label="Ngozi Omenka GitHub Profile (opens in a new tab)"> <i
+                class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/ngozi-omenka-90236b273/" target="_blank" aria-label="Ngozi Omenka LinkedIn profile (opens in a new tab)"><i
+                    class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+    
 </body>
+</html>
