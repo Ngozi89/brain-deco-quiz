@@ -1,4 +1,4 @@
-print("Welcome to Brain Deco Quiz App")
+print("Welcome to Brain Deco Fun General Knowledge Quiz Game")
 # Let player choose if they want to play or quit
 player = input("Do you want to play Brain Deco Quiz? ")
 
@@ -6,9 +6,13 @@ player = input("Do you want to play Brain Deco Quiz? ")
 if player.lower() != "yes":
     quit()
 else:
-    print("Okay, lets' go :)")
-    score = 0    
+    print("Okay, lets' go :)")  
 
+ # Let player enter name 
+name = input("Enter your name ")
+"Name: "
+print("Hi", str(name))
+score = 0 
 # Set question for user to answer 
 answer = input("How many minutes are in a full week? ")
 if answer.lower() == "10,080":
