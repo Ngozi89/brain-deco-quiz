@@ -11,15 +11,19 @@ Brain Deco quiz is a fun to play quiz, it engage and energize the audience by as
 Th quiz has 20 questions in total and the player gets one point when he or she answered correctly.
 
 When player answer is correct the next question displays but when the play answer is incorrect, the correct answer will display before the next question.
+
 ![Correct](readme/correct.png)
+
 ![Incorrect](readme/incorrect.png)
 
 At the end of the quiz the player will see his or her score and know how many he or she got right.
+
 ![Score](readme/score.png)
 
 This quiz game app demonstrate how pure python works in a real-world context, and can be played by anyone from age 16  who  love quiz. The questions are carefully sellected to make user to keep playing.
 
 The site is a fully responsive python game that will allow users to read a question regardless of the screen size.
+
 ![Responsive Mockup](readme/responsive.png)
 
 ## Features
@@ -30,7 +34,7 @@ The site is a fully responsive python game that will allow users to read a quest
 ### Brain Deco app Heading
 
 - Featured at the top of the page is the Brain Deco quiz app heading and is easy to see for the users.
-Upon viewing the page, the user will be able to see the name of the game and a start game button![](assets/images/quiz-rules.png)
+Upon viewing the page, the user will be able to see the name of the game and a start game button!
 
 ### The Game Area
 
@@ -44,6 +48,7 @@ At the end the user will get a thank you message followed by their score and as 
 ### The Score Area
 
 - The uses will only see result at the end of the game.
+
 ![score](readme/score.png)
 
 ## First Time Visitor Goal
