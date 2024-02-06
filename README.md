@@ -36,14 +36,30 @@ The site is a fully responsive python game that will allow users to read a quest
 - Featured at the top of the page is the Brain Deco quiz app heading and is easy to see for the users.
 Upon viewing the page, the user will be able to see the name of the game and a start game button!
 
+![Brain Deco heading](readme/heading.png)
+
 ### The Game Area
 
-- The quiz game site have a welcome message for user followed by a question if user wants to play Brain Deco Quiz. If user types yes then the quiz rules will be displayed but if user types no then the game ends.
-- After the game rules, the play has option to quit or start the game. If user choose to start the game, the the user will enter his or her name then the questions starts dropping. 
+- The quiz game site have a welcome message for user followed by a question if user wants to play Brain Deco Quiz.
+
+![Brain Deco user welcome note](readmewelcome-mes.png)
+
+- If user types yes then the quiz rules will be displayed but if user types no then the game ends.
+![Brain Deco game rules](readme/gameruels.png)
+
+- After the game rules, the play has option to quit or start the game. If user choose to start the game, the the user will enter his or her name then the questions starts dropping.
+![Brain Deco player name](readme/player-name.png)
+![Brain Deco player name display](readme/user-name.png)
 
 - The are 20 questions that display one after the other when user types answer.
 - Once the user types an answer, its irreversible. If player is correct it will display "Correct" and if the answer is incorrect, it will display "Incorrect" and print the correct answer and this contines till the last question is answered.
-At the end the user will get a thank you message followed by their score and as well a message to direct the user where to click if user wants to try again.
+
+![Correct](readme/correct.png)
+
+![Incorrect](readme/incorrect.png)
+
+- At the end the user will get a thank you message followed by their score and as well a message to direct the user where to click if user wants to try again.
+![Thank you for playing](readme/thank-you.png)
 
 ### The Score Area
 
