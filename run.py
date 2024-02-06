@@ -6,7 +6,7 @@ print()
 if player.lower() != "yes":
     quit()
 else:
-    print("Here is the rules for the game ")    
+    print("Here is the rules for the game ")  
 print(" . There are 20 questions in total, and you have to write the answers")
 print()
 print(" . The correct answer will appear if your answer is incorrect")
@@ -21,21 +21,21 @@ if player.lower() != "start":
     quit()
 else:
     print("Okay, lets' go :)")
-print()        
- # Let player enter name 
+print()   
+# Let player enter name
 name = input("Enter your name ").capitalize()
 "Name: "
 print("Hi,", str(name) + "!")
 score = 0
-print() 
-# Set question for user to answer 
+print()
+# Set question for user to answer
 answer = input("How many minutes are in a full week? ")
 if answer.lower() == "10,080":
     print("Correct!")
     score += 1
 else:
     print("Incorrect!")
-    print("The answer is 10,080")    
+    print("The answer is 10,080") 
 print()
 answer = input("What year was the United Nations established? ")
 if answer.lower() == "1945":
@@ -204,10 +204,10 @@ if answer.lower() == "rome":
     print("Correct!")
     score += 1
 else:
-    print("Incorrect!") 
+    print("Incorrect!")
     print("The answer is Rome")
 
 print()
 print("Thank you for playing Brain Deco Quiz, you got " + str(score) + " questions correct")
 print()
-print("Click 'Start Game' if you want play the Quiz again")     
+print("Click 'Start Game' if you want play the Quiz again")
